@@ -1,6 +1,6 @@
 ## Data Warehouse and Analytics Learning Project 
 
-This repository is part of my SQL learning journey. The goal is to practice and understand how a data warehouse works — from designing tables to writing analytical queries. Rather than being a full production system, this project is focused on exploring the basics of data warehousing and analytics concepts through hands-on exercises.
+This repository is part of my SQL learning journey. The goal is to practice and understand how a data warehouse works: from designing tables to writing analytical queries. This project is focused on exploring the basics of data warehousing and analytics concepts.
 
 ### Project Overview
 
