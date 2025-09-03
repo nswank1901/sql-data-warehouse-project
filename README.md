@@ -1,8 +1,8 @@
-### Data Warehouse and Analytics Learning Project 
+## Data Warehouse and Analytics Learning Project 
 
 This repository is part of my SQL learning journey. The goal is to practice and understand how a data warehouse works — from designing tables to writing analytical queries. Rather than being a full production system, this project is focused on exploring the basics of data warehousing and analytics concepts through hands-on exercises.
 
-## Project Overview
+### Project Overview
 
 In this project, I’m learning about:
 
@@ -14,7 +14,7 @@ In this project, I’m learning about:
 
 - Analytics & Reporting: Writing SQL queries to generate insights from the data.
 
-## Learning Objectives 
+### Learning Objectives 
 
 This project is helping me get comfortable with:
 
@@ -26,7 +26,7 @@ This project is helping me get comfortable with:
 
 - Practicing simple reporting and trend analysis in SQL
 
-## Project Scope
+### Project Scope
 
 Data Sources: Two CSV files representing ERP and CRM systems.
 
