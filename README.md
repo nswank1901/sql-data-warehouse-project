@@ -32,6 +32,4 @@ Data Sources: Two CSV files representing ERP and CRM systems.
 
 Integration: Combining these into a single data model.
 
-Focus: Learning concepts rather than implementing a full historical/production-ready warehouse.
-
 Documentation: Notes and explanations are included to reinforce what I’m learning along the way.
