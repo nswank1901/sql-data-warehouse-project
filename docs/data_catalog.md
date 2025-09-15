@@ -1,14 +1,13 @@
 # Data Dictionary for Gold Layer
----------------------------------------------------------------------
 
 ### Overview
 ---------------------------------------------------------------------
 The gold Layer is the business level data representation, structured to support analytical and reporting use cases. It consists of **dimension 
 tabes** and **fact tables** for specific business metrics.
 
-**--------------------------------------------------------------------**
+--------------------------------------------------------------------
 **1. gold.dim_customers**
-  + **Purpose: **Stores customer details enriched with demographic and geographic data
+  + **Purpose:** Stores customer details enriched with demographic and geographic data
   + **Columns:**
 
 # Data Catalog - SQL Data Warehouse
@@ -28,9 +27,9 @@ This document provides an overview of the key tables in the data warehouse.
 | birthdate       | DATE          | The date of birth of the customer, formatted as YYYY-MM-DD (e.g., 1969-12-04). |
 | create_date     | DATE          | The date and time when the customer record was created in the system.        |
 
-**--------------------------------------------------------------------**
+--------------------------------------------------------------------
 **2. gold.dim_products**
-  + **Purpose: **Provides information about the products and their attributes
+  + **Purpose:** Provides information about the products and their attributes
   + **Columns:**
 
 # Data Catalog - SQL Data Warehouse
@@ -51,9 +50,9 @@ This document provides an overview of the key tables in the data warehouse.
 | product_line    | NVARCHAR(50) | The specific product line or series to which the product belongs (e.g., Road, Mountain)       |
 | start_date      | DATE         | The date when the product became available for sale or use, stored in                  |
 
-**--------------------------------------------------------------------**
+--------------------------------------------------------------------
 **2. gold.fact_sales**
-  + **Purpose: **Stores transactional sales data for analytical purposes.
+  + **Purpose:** Stores transactional sales data for analytical purposes.
   + **Columns:**
 
 # Data Catalog - SQL Data Warehouse
