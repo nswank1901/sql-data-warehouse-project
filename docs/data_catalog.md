@@ -5,14 +5,14 @@
 The gold Layer is the business level data representation, structured to support analytical and reporting use cases. It consists of **dimension 
 tabes** and **fact tables** for specific business metrics.
 
+# Data Catalog - SQL Data Warehouse
+
+This document provides an overview of the key tables in the data warehouse.
+
 
 #### **1. gold.dim_customers**
   + **Purpose:** Stores customer details enriched with demographic and geographic data
   + **Columns:**
-
-# Data Catalog - SQL Data Warehouse
-
-This document provides an overview of the key tables in the data warehouse.
 
 | Column Name     | Data Type     | Description                                                                 |
 |-----------------|---------------|-----------------------------------------------------------------------------|
@@ -32,10 +32,6 @@ This document provides an overview of the key tables in the data warehouse.
   + **Purpose:** Provides information about the products and their attributes
   + **Columns:**
 
-# Data Catalog - SQL Data Warehouse
-
-This document provides an overview of the key tables in the data warehouse.
-
 | Column Name     | Data Type     | Description                                                                 |
 |-----------------|---------------|-----------------------------------------------------------------------------|
 | product_key     | INT           | Surrogate key uniquely identifying each product record in the dimension table.   |
@@ -54,10 +50,6 @@ This document provides an overview of the key tables in the data warehouse.
 #### **2. gold.fact_sales**
   + **Purpose:** Stores transactional sales data for analytical purposes.
   + **Columns:**
-
-# Data Catalog - SQL Data Warehouse
-
-This document provides an overview of the key tables in the data warehouse.
 
 | Column Name     | Data Type     | Description                                                                 |
 |-----------------|---------------|-----------------------------------------------------------------------------|
